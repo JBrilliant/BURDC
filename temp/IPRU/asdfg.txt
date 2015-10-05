@@ -1,0 +1,76 @@
+<?php
+	if(isset($_GET['GO'])){
+			include 'connection.php';
+			if(isset($_GET['college_go'])){
+			;	
+			}
+			
+			else if(isset($_GET['category_go'])){
+			;	
+			}
+			
+			else if(isset($_GET['class_go'])){
+			;
+			}
+			
+			else if(isset($_GET['status_go'])){
+			;	
+			}
+			
+	}
+?>
+<html>
+<head>
+	<title>IPRU - Home Page</title>
+</head>
+<body>
+<h1 align="center">Intelectual Property and Rights Unit</h1>
+
+<h3 align="center"><a href="#">INVENTION</a></h3><br><hr>
+<h3 align="center"><a href="#">INDUSTRIAL DESIGN</a></h3><br><hr>
+<h3 align="center"><a href="#">UTILITY MODEL</a></h3><br><hr>
+<h3 align="center"><a href="#">COPYRIGHT</a></h3><br><hr>
+<h3 align="center"><a href="#">TRADEMARK</a><h3><br><hr>
+<h3 align="center"><a href="#">DISPLAY ALL</a><h3><br><hr>
+
+<form method="get" action=<?php echo htmlspecialchars($_SERVER['PHP_SELF'])?>>
+<?php
+	if(isset($_GET['college'])){
+		echo "College: <input type='text' value='enter here' name='college_go'> <input type='submit' name='GO' value='GO'>";
+	}
+	else if(isset($_GET['category'])){
+		echo "Category: <input type='text' value='enter here' name='category_go'> <input type='submit' name='GO' value='GO'>";
+	}
+	else if(isset($_GET['class'])){
+		echo "Class: <input type='text' value='enter here' name='class_go'> <input type='submit' name='GO' value='GO'>";
+	}
+	else if(isset($_GET['status'])){
+		echo "Status: <input type='text' value='enter here' name='status_go'> <input type='submit' name='GO' value='GO'>";
+	}
+?>
+</form>
+
+<form method="get" action=<?php echo htmlspecialchars($_SERVER['PHP_SELF'])?>>
+	<table align="center">
+		<tr>
+			<th><input type="submit" value="ADD COLLEGE" name="college"></th>
+		<tr>
+		<tr>
+			<th><input type="submit" value="ADD CATEGORY" name="category"></th>
+		<tr>
+		<tr>
+			<th><input type="submit" value="ADD CLASS" name="class"></th>
+		<tr>
+		<tr>
+			<th><input type="submit" value="ADD STATUS" name="status"></th>
+		<tr>
+		
+	</table>
+
+</form>
+
+</body>
+</html>
+
+</body>
+</html>

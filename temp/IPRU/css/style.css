@@ -1,0 +1,34 @@
+body{
+	background-color:grey;
+}
+#wrapper{
+	margin: 0 auto;
+	width:100%;
+}
+
+#wrapper-box{
+	background-image: url("../images/wrapper.jpg");
+	background-repeat: repeat-y;
+	width:30%;
+	height:50%;
+	margin: 0px 0px 0px 36%;
+}
+
+#wrapper-box-box{
+	margin-top:10px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+
+#wrapper-box-header{
+	background-color:#00BFFF;
+	width: 100%;
+	height:15%;
+}
+
+#wrapper-box-content{
+	background-color:#1E90FF;
+	width:100%;
+	height:85%;
+}

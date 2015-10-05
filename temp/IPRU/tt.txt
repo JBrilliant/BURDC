@@ -1,0 +1,43 @@
+<html>
+<head>
+	<title>IPRU - Home Page</title>
+</head>
+<body>
+	<form>
+		<table align="center">
+			<tr>
+				<td>Calendar Year</td>
+				<td><input type="text" /> </td>
+			</tr>
+			<tr>
+				<td>Title</td>
+				<td> <input type="text" /> </td>
+			</tr>
+			<tr>
+				<td>College/Campus/Agency  </td>
+				<td> <input type="text" /> </td>
+			</tr>
+			<tr>
+				<td>Issue Date </td>
+				<td> <input type="date" /> </td>
+			</tr>
+			<tr>
+				<td>Filling Date</td>
+				<td><input type="date" /> </td>
+			</tr>
+			<tr>
+				<td> Patent / Registration No. </td>
+				<td> <input type="text" /> </td>
+			</tr>
+			<tr>
+				<td>Publication Date </td>
+				<td> <input type="date" />
+			</tr>
+			<tr>
+				<td>Campus</td>
+				<td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
