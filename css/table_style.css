@@ -1,10 +1,9 @@
 #hborder {
-	//border-style: solid;
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid white;
 }
 
 #vborder {
-	border-right: 1px solid black;
+	border-right: 1px solid white;
 }
 
 table {
