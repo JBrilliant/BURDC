@@ -57,7 +57,7 @@
     		<input id="buttonleft" type="submit" value="Add" />
         </form>
     </div>
-	<div class="col-md-12">
+	<div style="margin: 0px auto;"class="col-md-12">
 		<table>
 			<tr id="hborder">
 				<td id="vborder"> Control No. </td>

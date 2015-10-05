@@ -80,22 +80,24 @@ overflow: hidden;
 <!--Navi Barr-->
      <nav class="navbar navbar-inverse navbar-lg  navbar-static-top" role="navigation">
 		<!--Logo-->
-        <a class="brand" style="margin: 0; float: none;">
+        <a class="brand" style="margin: 0px; float: none;">
         <img src="../dist/img/RSTC.png" alt="" width="60" height="60"></a>
         <br>
         <br>
-        <h2 align="center"> <font color="#FFFFFF"> <font size="+2">Bicol University Research and Development Center </font> <br> <font size = "+1">(Information Receiving Section)</h2>
-        </font>
+        <h2 align="center"> <font color="#FFFFFF"> <font size="+2">Bicol University Research and Development Center </font> <br> <font size = "+1">(Information Receiving Section)</font></h2>
+        
         
       </nav>
 		
 	  <!--end of navi bar-->
 	  
 <!--tiles-->
-<!-- <div style="position: absolute; left: 150px; top: 50px;">	-->
-<center><div style="margin: 25px auto; padding: 0px 400px;">	  
-<a href = "../pages/irs_main.php">
-<div id = tile style="position: relative; margin: 25px; display:inline-block;"> 
+<!-- <div style="margin: 25px auto; padding: 0px 400px;">	-->
+<div style="padding: 0px 100px;">
+ <div style="text-align: center; margin: 50px auto;">
+
+<a href = "irs_incoming.php">
+<div id = tile style="margin: 25px; display:inline-block;"> 
 <img src="../images/icons/micon/temp.png" alt="photo" height="110" width="110">
  <div class="poptext">
     <h3 align = "center"> <font size = "5"><br>Incoming</font></h3>
@@ -103,18 +105,18 @@ overflow: hidden;
 </div> 
 </a>
 
-<a href = "#">
-<div id = tile style="position: relative; margin: 25px; display:inline-block"> 
-<img src="../images\icons\micon\temp.png"alt="photo" height="100" width="100">
+<a href = "irs_outgoing.php">
+<div id = tile style=" margin: 25px; display:inline-block"> 
+<img src="../images\icons\micon\temp.png"alt="photo" height="110" width="110">
  <div class="poptext">
     <h3 align = "center"> <font size = "5"><br>Outgoing</font></h3>
   </div>
 </div>
 </a>
 
-<a href = "#">
-<div id = tile style="position: relative; margin: 25px; display: inline-block;"> 
-<img src="../images\icons\micon\temp.png"alt="photo" height="100" width="100">
+<a href = "irs_travelorder.php">
+<div id = tile style=" margin: 25px; display: inline-block;"> 
+<img src="../images\icons\micon\temp.png"alt="photo" height="110" width="110">
  <div class="poptext">
     <h3 align = "center"> <font size = "5"><br>Travel Order</font></h3>
   </div>
@@ -122,8 +124,8 @@ overflow: hidden;
 </a>
 
 
-<a href = "pis.php">
-<div id = tile style="position: relative; margin: 25px; display:inline-block;">
+<a href = "irs_cheques.php">
+<div id = tile style=" margin: 25px; display:inline-block;">
 <img src="../images\icons\micon\temp.png"alt="photo" height="110" width="110">
  <div class="poptext">
     <h3 align = "center"> <font size = "5"><br>Cheque</font></h3>
@@ -131,9 +133,10 @@ overflow: hidden;
 </div>
 </a>
 
-<button class = "btn btn-success" >BACK TO HOME</button>
+
 </div>
-</center>
+<center> <a href="../index.php" ><button style="color: #2E4C96">BACK TO HOME</button> </a></center>
+</div>
 
 <!--end of tiles-->
 
