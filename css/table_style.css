@@ -1,6 +1,16 @@
+#hborder {
+	//border-style: solid;
+	border-bottom: 1px solid black;
+}
+
+#vborder {
+	border-right: 1px solid black;
+}
+
 table {
 	margin: 0px auto;
 }
+	
 td {
 	padding: 10px 15px;
 	text-align: center;

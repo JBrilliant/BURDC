@@ -54,12 +54,12 @@
 	<h4 align = "center">&nbsp;</h4>
 	<div class="col-md-12">
 		<table>
-			<tr>
-				<td> Control No. </td>
-				<td> Date </td>
-				<td> Campus </td>
-				<td> Sender </td>
-				<td> Receiver </td>
+			<tr id="hborder">
+				<td id="vborder"> Control No. </td>
+				<td id="vborder"> Date </td>
+				<td id="vborder"> Campus </td>
+				<td id="vborder"> Sender </td>
+				<td id="vborder"> Receiver </td>
 				<td> Subject </td>
 			</tr>
 			<?php
@@ -67,20 +67,20 @@
 				$data = mysqli_query($dbconn, $query) or die("Cant extract info");
 				while ($row = mysqli_fetch_assoc($data)){
 					echo "<tr>";
-					echo "<td> $row[number] </td>";
-					echo "<td> $row[date] </td>";
+					echo "<td id='vborder'> $row[number] </td>";
+					echo "<td id='vborder'> $row[date] </td>";
 					$query = "SELECT ooc FROM oocs WHERE oocID='$row[oocID]'";
 					$row2 = mysqli_query($dbconn, $query) or die("Can't extract info");
 					$oocs = mysqli_fetch_array($row2);
-					echo "<td> $oocs[0] </td>";
+					echo "<td id='vborder'> $oocs[0] </td>";
 					$query = "SELECT cname FROM sender WHERE s_personID='$row[s_personID]'";
 					$row2 = mysqli_query($dbconn, $query) or die("Can't extract info");
 					$sender = mysqli_fetch_array($row2);
-					echo "<td> $sender[0] </td>";
+					echo "<td id='vborder'> $sender[0] </td>";
 					$query = "SELECT cname FROM reciever WHERE r_personID='$row[r_personID]'";
 					$row2 = mysqli_query($dbconn, $query) or die("Can't extract info");
 					$reciever = mysqli_fetch_array($row2);
-					echo "<td> $reciever[0] </td>";
+					echo "<td id='vborder'> $reciever[0] </td>";
 					$query = "SELECT status FROM status WHERE statusID='$row[statusID]'";
 					$row2 = mysqli_query($dbconn, $query) or die("Can't extract info");
 					$status = mysqli_fetch_array($row2);
