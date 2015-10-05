@@ -6,10 +6,10 @@
     <meta charset="utf-8">
     <title>IRS (Information and Recieving Section)</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="dist/css/vendor/bootstrap.min.css" rel="stylesheet"> <!--bootstrap-->
-    <link href="dist/css/flat-ui.css" rel="stylesheet">  <!--flat UI-->
-	<link rel="shortcut icon" href="dist/img/RSTC.png"> 
-	<link href="css/table_style.css" rel="stylesheet">
+    <link href="../dist/css/vendor/bootstrap.min.css" rel="stylesheet"> <!--bootstrap-->
+    <link href="../dist/css/flat-ui.css" rel="stylesheet">  <!--flat UI-->
+	<link rel="shortcut icon" href="../dist/img/RSTC.png"> 
+	<link href="../css/table_style.css" rel="stylesheet">
 
 <style>
 .brand {
@@ -40,7 +40,7 @@
        <nav class="navbar navbar-inverse navbar-lg  navbar-static-top" role="navigation">
 		<!--Logo-->
         <a class="brand" style="margin: 0; float: none;">
-        <img src="dist/img/RSTC.png" alt="" width="60" height="60"></a>
+        <img src="../dist/img/RSTC.png" alt="" width="60" height="60"></a>
         <br>
         <br>
         <h2 align="center"> <font color="#FFFFFF"> <font size="+2">Bicol University Research and Development Center </font> <br> <font size = "+1">(Information Receiving Section)</h2>
