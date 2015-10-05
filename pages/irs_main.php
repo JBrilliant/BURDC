@@ -67,7 +67,7 @@
 				$data = mysqli_query($dbconn, $query) or die("Cant extract info");
 				while ($row = mysqli_fetch_assoc($data)){
 					echo "<tr>";
-					echo "<td> $row[control_no] </td>";
+					echo "<td> $row[number] </td>";
 					echo "<td> $row[date] </td>";
 					$query = "SELECT ooc FROM oocs WHERE oocID='$row[oocID]'";
 					$row2 = mysqli_query($dbconn, $query) or die("Can't extract info");
@@ -87,10 +87,10 @@
 					echo "<td> $status[0] </td>";
 					echo "</tr>";
 				}
-			?> 
+			?>
 		</table>
-	</div>
-	<!-- <form class="form-inline" role="form">
+	<!--- </div>
+	 <form class="form-inline" role="form">
       <div class="col-md-12"> 
 		<table align="center">
 			<tr>
@@ -144,10 +144,10 @@
 			<tr>
 				<td> Remarks: </td>
 				<td> <input type="textdomain" /> </td>
-			</tr>
+			</tr> -->
 		</table>	  
 	  </div>
-	</form> -->
+	</form>
 <!--End of Form-->
  
 </body>
