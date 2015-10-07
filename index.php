@@ -72,7 +72,7 @@ overflow: hidden;
 	  <!--end of navi bar-->
 	  
 <!--tiles-->	  
-<a href = "pages/irs_main.php">
+<a href = "mod/mod1/irs_main">
 <div id = tile style="position: absolute; left: 30px; top: 170px;"> 
 <img src="images/icons/micon/temp.png" alt="photo" height="110" width="110">
  <div class="poptext">
@@ -82,7 +82,7 @@ overflow: hidden;
 </a>
 
 <a href = "#">
-<div id = tile style="position: absolute; left: 280px; top: 170px;"> 
+<div id = tile style="position: absolute; left: 251px; top: 171px;"> 
 <img src="images\icons\micon\temp.png"alt="photo" height="100" width="100">
  <div class="poptext">
     <h3 align = "center"> <font size = "5"><br>Tihrcom</font></h3>
@@ -91,7 +91,7 @@ overflow: hidden;
 </a>
 
 <a href = "#">
-<div id = tile style="position: absolute; left: 530px; top: 170px;"> 
+<div id = tile style="position: absolute; left: 470px; top: 170px;"> 
 <img src="images\icons\micon\temp.png"alt="photo" height="100" width="100">
  <div class="poptext">
     <h3 align = "center"> <font size = "5"><br>Publication </font></h3>
@@ -101,7 +101,7 @@ overflow: hidden;
 
 
 <a href = "pis.php">
-<div id = tile style="position: absolute; left: 780px; top: 170px;">
+<div id = tile style="position: absolute; left: 690px; top: 170px;">
 <img src="images\icons\micon\temp.png"alt="photo" height="110" width="110">
  <div class="poptext">
     <h3 align = "center"> <font size = "5"><br>Bids and Award Committee (BAC)</font></h3>
@@ -110,7 +110,7 @@ overflow: hidden;
 </a>
 
 <a href = "#">
-<div id = tile style="position: absolute; left: 1030px; top: 170px;">
+<div id = tile style="position: absolute; left: 910px; top: 170px;">
 <img src="images\icons\micon\temp.png"alt="photo" height="110" width="110">
  <div class="poptext">
     <h3 align = "center"> <font size = "5"><br><br>Intellectual Property Rights Unit (IPRU)</font></h3>
@@ -119,7 +119,7 @@ overflow: hidden;
 </a>
 
 <a href = "#">
-<div id = tile style="position: absolute; left: 1280px; top: 170px;">
+<div id = tile style="position: absolute; left: 1130px; top: 170px;">
 <img src="images\icons\micon\temp.png"alt="photo" height="110" width="110">
  <div class="poptext">
     <h3 align = "center"> <font size = "5"><br><br>PMDU</font></h3>
